@@ -1,0 +1,31 @@
+body {
+    background: white;
+    background-size: 320px auto;
+    min-height: 3930px;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+@media(min-width: 320px) {
+    body {
+        background: white;
+        background-size: 320px auto;
+        min-height: 3930px;
+    }
+}
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header__logo-image {
+    
+}
